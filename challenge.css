@@ -1,0 +1,15 @@
+
+
+.card{
+    display: flex;
+    height: 100px;
+
+}
+body{
+    height: 800px;
+}
+
+.card-body{
+    border:1px solid green;
+    height: 250px;
+}
