@@ -10,12 +10,32 @@
     text-align: center;
     border: 1px solid black;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-left: 37%;
+    margin-top: 5%;
+    position: relative;
+    overflow: hidden;
 }
+
+.card:hover{
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+  }
+  
+  .card-body{
+    padding: 2px 16px;
+  }
+
 body{
     display: flex;
     height: 800px;
     width: 100%;
   background-color: tan;
+  background-image: url('https://imagedelivery.net/5ejkUOtsMH5sf63fw6q33Q/c9e4eca8-7637-4725-d56c-c358c1330200/public');
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -26,3 +46,8 @@ body{
 .box3{ 
     border: 1px solid black;
 }
+
+img {
+    border-radius: 5px 5px 0 0;
+  }
+
